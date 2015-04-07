@@ -10,8 +10,8 @@ Work in progress...
 1. Install plugin from the WordPress plugin directory. Coming soon...
 
 ## Install manually
-1. Download [zip](https://github.com/urre/Postpone/archive/master.zip) and extract
-2. Rename the folder from `Postpone-master` to `fuzzysheduling`
+1. Download [zip](https://github.com/urre/postpone/archive/master.zip) and extract
+2. Rename the folder from `postpone-master` to `postpone`
 3. Upload the plugin to your plugins directory
 4. Activate the plugin
 
@@ -19,8 +19,8 @@ Work in progress...
 1. Deactivate plugin
 
 ## Todo
-- [ ]: Support for Composer/Packagist
-- [ ]: Add Sv_SE translations
+- [ ] Support for Composer/Packagist
+- [ ] Add Sv_SE translations
 
 ## Changelog
 + 0.1.0: First version in repo
