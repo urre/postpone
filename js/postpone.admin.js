@@ -27,10 +27,10 @@
 		if($('#timestampdiv:visible').length == 0) {
 
 			// Setup fuzzy items
-			var fuzzy = ["In 1 hour", "Tomorrow 8am", "Tomorrow after lunch", "Tonight", "Next monday", "Next month", "Reset"];
+			var fuzzy = [langstrings.inoneour, langstrings.tomorroweightam, langstrings.tomorrowafterlunch, langstrings.tonight, langstrings.nextmonday, langstrings.nextmonth, langstrings.reset];
 			
 			// Create new select box
-			$('<select class="fuzzy-later"><option value="">Publish later...</option></select>').insertBefore(".save-timestamp	");
+			$('<select class="fuzzy-later"><option value="">'+langstrings.postpone+'...</option></select>').insertBefore(".save-timestamp	");
 
 			// Add the fuzzy options
 			for (var i = 0; i < fuzzy.length; i++) {
@@ -48,40 +48,40 @@
 				var fuzzyChoice = $('.fuzzy-later').find(":selected").text();
 
 				switch (fuzzyChoice) {
-					case "In 1 hour" :
+					case langstrings.inoneour :
 						$('#jj').val(pad(now.getDate()));
 						$('#hh').val(now.addHours(1).getHours());
 						$('#mn').val(now.addHours(1).getMinutes());
 						$('#mm option').eq(now.getMonth()).prop('selected', true);
 						break;
-					case "Tomorrow 8am" :
+					case langstrings.tomorroweightam :
 						$('#jj').val(pad(parseInt(now.getDate())+1));
 						$('#hh').val('08');
 						$('#mn').val('00');
 						$('#mm option').eq(now.getMonth()).prop('selected', true);
 						break;
-					case "Tomorrow after lunch" :
+					case langstrings.tomorrowafterlunch :
 						$('#jj').val(pad(now.getDate()+1));
 						$('#hh').val('13');
 						$('#mn').val('00');
 						$('#mm option').eq(now.getMonth()).prop('selected', true);
 						break;
-					case "Tonight" :
+					case langstrings.tonight :
 						$('#jj').val(pad(now.getDate()));
 						$('#hh').val('22');
 						$('#mn').val('00');
 						$('#mm option').eq(now.getMonth()).prop('selected', true);
 						break;
-					case "Next monday" :
+					case langstrings.nextmonday :
 						$('#jj').val(pad(now.getNextWeekDay(1).getDate()));
 						var nextmondaymonth = pad(now.getNextWeekDay(1).getMonth());
 						$('#mm option').eq(nextmondaymonth).prop('selected', true);
 						break;
-					case "Next month" :
+					case langstrings.nextmonth :
 						var nextmonth = $('#mm').find(":selected").index() + 1;
 						$('#mm option').eq(nextmonth).prop('selected', true);
 						break;
-					case "Reset" :						
+					case langstrings.reset :						
 						$('.cancel-timestamp').trigger('click');
 						$('#mm').prop('selectedIndex', 0);
 						break;

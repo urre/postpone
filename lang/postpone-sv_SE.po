@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Are You Sure\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-13 17:57+0100\n"
+"PO-Revision-Date: 2015-04-13 21:22+0100\n"
+"Last-Translator: Urban Sanden <hej@urre.me>\n"
+"Language-Team: Urban Sanden <hej@urre.me>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../postpone.php:62
+msgid "Postpone"
+msgstr "Skjut upp"
+
+#: ../postpone.php:63
+msgid "In One Hour"
+msgstr "Om en timma"
+
+#: ../postpone.php:64
+msgid "Tomorrow 8am"
+msgstr "I morgon klockan 08.00"
+
+#: ../postpone.php:65
+msgid "Tomorrow after lunch"
+msgstr "I morgon efter lunch"
+
+#: ../postpone.php:66
+msgid "Tonight"
+msgstr "I kväll"
+
+#: ../postpone.php:67
+msgid "Next monday"
+msgstr "Nästa måndag"
+
+#: ../postpone.php:68
+msgid "Next month"
+msgstr "Om en månad"
+
+#: ../postpone.php:69
+msgid "Reset"
+msgstr "Återställ"
+
+#~ msgid "Publish"
+#~ msgstr "Publicera"
+
+#~ msgid "Update"
+#~ msgstr "Uppdatera"
+
+#~ msgid "Are you sure you want to publish this?"
+#~ msgstr "Är du säker på att du vill publicera?"
+
+#~ msgid "testing"
+#~ msgstr "TESTAR"
+
+#~ msgid "View"
+#~ msgstr "Visa"
+
+#~ msgid "Hide"
+#~ msgstr "Göm"
+
+#~ msgid "Set featured image"
+#~ msgstr "Ange utvald bild"
+
+#~ msgid "Remove attachment"
+#~ msgstr "Ta bort bilaga"
+
+#~ msgid "files attached"
+#~ msgstr "bilagor"
+
+#~ msgid "Searching..."
+#~ msgstr "Söker…"
+
+#~ msgid "Search"
+#~ msgstr "Sök"
+
+#~ msgid "No album cover(s) were found"
+#~ msgstr "Inga omslag hittades"
+
+#~ msgid "Try again"
+#~ msgstr "Försök igen"
+
+#~ msgid "Save post to change/remove featured image"
+#~ msgstr "Spara för att ändra/ta bort utvald bild"
+
+#~ msgid "Album cover finder"
+#~ msgstr "Sök skivomslag"
+
+#~ msgid "Search album covers"
+#~ msgstr "Sök skivomslag"
+
+#~ msgid "Artist"
+#~ msgstr "Artist"
+
+#~ msgid "Album"
+#~ msgstr "Album"
+
+#~ msgid "Clear"
+#~ msgstr "Rensa"
+
+#~ msgid "Add as attachment"
+#~ msgstr "Lägg som bilaga"
+
+#~ msgid "Insert in editor"
+#~ msgstr "Infoga i innehåll"
+
+#~ msgid "Attachments"
+#~ msgstr "Bilagor"

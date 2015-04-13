@@ -41,11 +41,14 @@ class Postpone {
         # Get plugin paths, support both Must Use Plugins and standard plugins
         $this->constants();
 
+        # Load plugin text domain
+        add_action( 'init', array( $this, 'plugin_textdomain' ) );
+
     }
 
     # Text domain for translations
-    function plugin_textdomain() {
-        $domain = 'Postpone';
+    public function plugin_textdomain() {
+        $domain = 'postpone';
         $locale = apply_filters( 'plugin_locale', get_locale(), $domain );
         load_textdomain( $domain, WP_LANG_DIR.'/'.$domain.'/'.$domain.'-'.$locale.'.mo' );
         load_plugin_textdomain( $domain, FALSE, dirname( plugin_basename( __FILE__ ) ) . '/lang/' );
@@ -67,8 +70,21 @@ class Postpone {
         wp_enqueue_style( 'postpone-plugin-styles', Postpone_PLUGIN_URL . 'css/postpone.admin.css' );
     }
 
-    public function register_admin_scripts() {
+    public function register_admin_scripts($hook) {
+
         wp_enqueue_script( 'postpone-admin-script', Postpone_PLUGIN_URL . 'js/postpone.admin.js', array('jquery') );
+
+        # Localized strings exposed to Javascript
+        wp_localize_script( 'postpone-admin-script', 'langstrings', array(
+            'postpone' => __( 'Postpone', 'postpone' ),
+            'inoneour' => __( 'In One Hour', 'postpone' ),
+            'tomorroweightam' => __( 'Tomorrow 8am', 'postpone' ),
+            'tomorrowafterlunch' => __( 'Tomorrow after lunch', 'postpone' ),
+            'tonight' => __( 'Tonight', 'postpone' ),
+            'nextmonday' => __( 'Next monday', 'postpone' ),
+            'nextmonth' => __( 'Next month', 'postpone' ),
+            'reset' => __( 'Reset', 'postpone' )
+        ));
     }
 
 }
