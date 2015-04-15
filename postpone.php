@@ -3,7 +3,7 @@
 * Plugin Name: Postpone
 * Plugin URI: http://github.com/urre/postpone
 * Description: Publish In 1 hour, Tomorrow 8am, Tomorrow after lunch, Tonight, Next monday or Next month
-* Version: 0.1.0
+* Version: 1.0.0
 * Author: Urban Sanden
 * Author URI: http://urre.me
 * License: GPL2
