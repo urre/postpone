@@ -4,7 +4,7 @@ A simple WordPress plugin that lets you choose if you want to schedule a post in
 
 ![Postpone](https://s3.amazonaws.com/f.cl.ly/items/1Q3v0C0W010i1v3g1q2g/Screen%20Recording%202015-04-03%20at%2004.59%20em.gif)
 
-## Install from WordPress Plugin directory (coming soon...)
+## Install from [WordPress Plugin directory](https://wordpress.org/plugins/postpone/)
 1. Install plugin from the [WordPress Plugin directory](https://wordpress.org/plugins/postpone/)
 
 ## Install via [WordPress Packagist](http://wpackagist.org/)
@@ -33,8 +33,9 @@ Postpone is available in:
 + Swedish
 
 ## Todo
-- [x] Support for Composer/Packagist
+- [ ] Support for Composer/Packagist
 - [x] Add Sv_SE translations
 
 ## Changelog
++ 1.0.0: Release
 + 0.1.0: First version in repo
