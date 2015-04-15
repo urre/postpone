@@ -15,7 +15,7 @@ A simple WordPress plugin that lets you choose if you want to schedule a post in
 
 ## Install via Composer
 	
-	composer requre urre/postpone
+	composer require urre/postpone
 
 ## Install manually
 1. Download [zip](https://github.com/urre/postpone/archive/master.zip) and extract
