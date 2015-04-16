@@ -8,12 +8,11 @@ A simple WordPress plugin that lets you choose if you want to schedule a post in
 1. Install plugin from the [WordPress Plugin directory](https://wordpress.org/plugins/postpone/)
 
 ## Install via [WordPress Packagist](http://wpackagist.org/)
-1. Add the repository to your composer.json
-2. Add the desired plugins and themes to your requirements using wpackagist-plugin or wpackagist-theme as the vendor name.
+1. Add ``"wpackagist-plugin/postpone": "*"`` to your composer.json
 3. Run ``composer.phar update``
-4. Packages are installed to ``wp-content/plugins/`` or ``wp-content/themes/``
+4. Postpone are installed to ``wp-content/plugins/``
 
-## Install via Composer
+## Install directly via Composer
 	
 	composer require urre/postpone
 
@@ -31,10 +30,6 @@ Postpone is available in:
 
 + English
 + Swedish
-
-## Todo
-- [ ] Support for Composer/Packagist
-- [x] Add Sv_SE translations
 
 ## Changelog
 + 1.0.0: Release
