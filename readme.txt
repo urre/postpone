@@ -1,9 +1,9 @@
 === Postpone ===
 Contributors: urre
-Donate link: hej@urre.me
+Donate link: https://www.paypal.me/urbansanden
 Tags: publish, schedule, postpone
 Requires at least: 3.0
-Tested up to: 4.2.2
+Tested up to: 4.6.1
 Stable tag: 1.0.0
 
 Schedule a post in 1 hour, Tomorrow 8 am, Tomorrow after lunch, Tonight, Next monday or Next month.
